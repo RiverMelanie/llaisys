@@ -3,7 +3,7 @@
 #include "../../core/llaisys_core.hpp"
 #include "../../utils/check.hpp"
 
-#include "cpu/embedding_cpu.hpp"
+#include "embedding_cpu.hpp"
 
 namespace llaisys::ops {
 void embedding(tensor_t out, tensor_t index, tensor_t weight) {
